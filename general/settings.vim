@@ -10,6 +10,7 @@ set iskeyword+=-
 set mouse=a
 set splitbelow
 set splitright
+set t_Co=256
 set conceallevel=0
 set cursorline
 set background=dark

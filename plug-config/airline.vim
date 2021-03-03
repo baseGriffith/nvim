@@ -12,3 +12,5 @@ let g:airline#extensions#tabline#tab_min_count = 2
 let g:airline#extensions#tabline#buffers_label = ''
 let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#tabline#tabs_label = ''
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
