@@ -50,4 +50,6 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'airblade/vim-rooter'
 
+Plug 'mhinz/vim-signify'
+
 call plug#end()
