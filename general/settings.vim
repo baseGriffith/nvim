@@ -37,7 +37,7 @@ set nowritebackup
 set undodir=~/.config/nvim/undodir
 set undofile
 set updatetime=300
-set timeoutlen=500
+set timeoutlen=1000
 set formatoptions-=cro 
 set clipboard=unnamedplus
 
