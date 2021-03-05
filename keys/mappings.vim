@@ -12,6 +12,8 @@ nnoremap <c-u> viwU<Esc>
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
+" leader-q to delete a buffer
+nnoremap <leader>d :bdelete<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
