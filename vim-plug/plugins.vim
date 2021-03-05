@@ -52,4 +52,6 @@ Plug 'airblade/vim-rooter'
 
 Plug 'mhinz/vim-signify'
 
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
