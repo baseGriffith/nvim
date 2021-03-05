@@ -54,4 +54,6 @@ Plug 'mhinz/vim-signify'
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'mbbill/undotree'
+
 call plug#end()
