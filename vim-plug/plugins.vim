@@ -44,4 +44,10 @@ Plug 'ryanoasis/vim-devicons'
 
 Plug 'kevinhwang91/rnvimr'
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+Plug 'junegunn/fzf.vim'
+
+Plug 'airblade/vim-rooter'
+
 call plug#end()
