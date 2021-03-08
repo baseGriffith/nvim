@@ -1,1 +1,1 @@
-#My kickass Neovim config
+##My kickass Neovim config
