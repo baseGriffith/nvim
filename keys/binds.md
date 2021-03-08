@@ -1,20 +1,20 @@
-### Future stuff
+## Future stuff
 
 {close tag, frontend library servers, surround, coc-snippets, nerdcommentor}
 
-### List navigation
+## List navigation
 
 **(C-n) || (C-j)** :move to next item
 
 **(C-p) || (C-k)** :move to previous item
 
-### Coc
+## Coc
 
 **:CocList extensions** :installed extensions
 
 **Installed extensions** :{pairs, perttier, explorer, tsserver, html, css,eslint, yaml}
 
-#### Coc code navigation
+### Coc code navigation
 
 **gd** :goto code definition
 
@@ -26,7 +26,7 @@
 
 **gf** :goto file
 
-#### Coc code modification
+### Coc code modification
 
 **(leader)rn** :rename symbol
 
@@ -34,7 +34,7 @@
 
 **(leader)qf** :apply autofix to problem on the current line
 
-#### Coc explorer
+### Coc explorer
 
 **(space)e** :open explorer
 
@@ -76,7 +76,7 @@
 
 **q** :quit
 
-##### Coc explorer Git integration symbols
+#### Coc explorer Git integration symbols
 
 **M** :modified
 
@@ -96,9 +96,9 @@
 
 **!** :ignore
 
-### Fzf
+## Fzf
 
-#### Vim
+### Vim
 
 **(C-p)** :open fuzzy finder
 
@@ -118,7 +118,7 @@
 
 **(C-v)** :open seleciton in a vertical split
 
-#### Terminal
+### Terminal
 
 **(C-r)** :show history
 
@@ -126,13 +126,13 @@
 
 **(M-c)** :serach and cd into directories
 
-### Ranger
+## Ranger
 
-#### Vim
+### Vim
 
 **(leader)r** :open ranger
 
-#### Terminal
+### Terminal
 
 **S** :cd into the current directory
 
@@ -144,17 +144,17 @@
 
 **/** :search
 
-### Undo tree
+## Undo tree
 
 **(F5)** :open undo tree
 
-### Opening files in windows
+## Opening files in windows
 
 **:new filename.ext** :opens the file in a new window below the current one
 
 **:vert filename.ext** :opens the file in a new window beside the cureent one
 
-### Use alt + hjkl to resize windows
+## Use alt + hjkl to resize windows
 
 **(M-j)** :resize -2(CR>
 
@@ -164,7 +164,7 @@
 
 **(M-l)** :vertical resize +2<CR>
 
-### Better window navigation
+## Better window navigation
 
 **(C-h)** <C-w>h
 
@@ -174,28 +174,28 @@
 
 **(C-l)** <C-w>l
 
-### Easy CAPS
+## Easy CAPS
 
 **(c-u)** <ESC>viwUi
 
 **(c-u)** viwU<Esc>
 
-### TAB in general mode will move to text buffer
+## TAB in general mode will move to text buffer
 
 **(TAB)** :bnext<CR>
 
-### SHIFT-TAB will go back
+## SHIFT-TAB will go back
 
 **(S-TAB)** :bprevious<CR>
 
-### leader-q to delete a buffer
+## leader-q to delete a buffer
 
 **(leader)d** :bdelete<CR>
 
-### Alternate way to save
+## Alternate way to save
 
 **(C-s)** :w<CR>
 
-### Alternate way to quit
+## Alternate way to quit
 
 **(C-Q)** :wq!<CR>
