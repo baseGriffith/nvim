@@ -21,6 +21,7 @@ set shiftwidth=4
 set expandtab
 set nu
 set wrap
+set linebreak
 set ignorecase
 set smartcase
 set noswapfile
