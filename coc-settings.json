@@ -1,8 +1,50 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "html",  "json", "python"],
+    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "html",  "json", "python"],
     
+    "prettier.tabWidth": 4,    
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+
+    "pairs.enableCharacters": [
+        "(",
+        "[",
+        "{",
+        "'",
+        "\"",
+        "`"
+    ],
+
     //eslint config
     "eslint.autoFixOnSave": true,
+
+    //LSP symbols
+    "suggest.completionItemKindLabels": {
+        "method": "  ",
+        "function": "  ",
+        "variable": "[]",
+        "field": "  ",
+        "typeParameter": "<>",
+        "constant": "  ",
+        "class": " פּ ",
+        "interface": " 蘒",
+        "struct": "  ",
+        "event": "  ",
+        "operator": "  ",
+        "module": "  ",
+        "property": "  ",
+        "enum": " 練",
+        "reference": "  ",
+        "keyword": "  ",
+        "file": "  ",
+        "folder": " ﱮ ",
+        "color": "  ",
+        "unit": " 塞 ",
+        "snippet": "  ",
+        "text": "  ",
+        "constructor": "  ",
+        "value": "  ",
+        "enumMember": "  "
+      },
 
     //explorer config
     "explorer.quitOnOpen": true,

@@ -30,6 +30,8 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'morhetz/gruvbox'
+
 "Plug 'captbaritone/better-indent-support-for-php-with-html'
 
 "Plug 'pangloss/vim-javascript'
