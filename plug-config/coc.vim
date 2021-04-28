@@ -1,6 +1,9 @@
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 
+" Set nodejs path
+let g:coc_node_path = "/usr/bin/nodejs/bin/node"
+
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
 if has("patch-8.1.1564")
